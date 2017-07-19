@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Minimo</title>
+    <link>/</link>
+    <description>Recent content in Home on Minimo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Mínimo is a Spanish word that roughly translate to Minimal.
+Minimo is a minimalist theme for Hugo.
+Minimo keeps the focus on your content and lets it shine!</description>
+    </item>
+    
+    <item>
+      <title>eacpt cj</title>
+      <link>/post/eacpt-cj/</link>
+      <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/eacpt-cj/</guid>
+      <description>EACPT published.</description>
+    </item>
+    
+    <item>
+      <title>Open Graph Support</title>
+      <link>/blog/open-graph-support/</link>
+      <pubDate>Tue, 30 May 2017 22:00:00 +0600</pubDate>
+      
+      <guid>/blog/open-graph-support/</guid>
+      <description>Minimo has built-in support for Open Graph tags.
+The extra configuration options used by Open Graph tags are noted below.
+You can set Facebook&amp;rsquo;s App ID and Admins tags by the following config options:
+[params.opengraph] [params.opengraph.facebook] admins = &amp;quot;&amp;quot; appid = &amp;quot;&amp;quot;   admins field accepts a single Facebook Profile ID number. appid field accepts a single Facebook Application ID number.  You can also add you Facebook Page&amp;rsquo;s ID with the following config option:</description>
+    </item>
+    
+    <item>
+      <title>Translation Support</title>
+      <link>/blog/translation-support/</link>
+      <pubDate>Tue, 30 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/translation-support/</guid>
+      <description>You can translate Minimo in your own language!
+For example, if you want to translate Minimo in Spanish, you will have to add this to your site&amp;rsquo;s config file:
+defaultContentLanguage = &amp;quot;en&amp;quot; [languages] [languages.es] lang = &amp;quot;es&amp;quot; languageName = &amp;quot;Spanish&amp;quot; weight = 1  Then create a folder named /i18n/ in your site&amp;rsquo;s root. And create a file /i18n/es.toml with the translated strings.
+For reference format you can see the en.</description>
+    </item>
+    
+    <item>
+      <title>Menus</title>
+      <link>/blog/menus/</link>
+      <pubDate>Sat, 20 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/menus/</guid>
+      <description>Minimo has two menus.
+ Main Menu Social Menu  Main Menu Main menu is located at the top of the site.
+For adding content entries to the Main menu simply add the menu variable in it&amp;rsquo;s Front Matter.
+For TOML format:
++++ menu = &amp;quot;main&amp;quot; +++  For YAML format:
+--- menu: main ---  For JSON format:
+{ &amp;quot;menu&amp;quot;: &amp;quot;main&amp;quot; }  For adding non-content entries, you will have to specify it in the site&amp;rsquo;s config file.</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>/blog/pagination/</link>
+      <pubDate>Sat, 20 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/pagination/</guid>
+      <description>Minimo supports pagination on List pages.
+For configuring it, there are two options:
+ Paginate PaginatePath  Details can be found at Hugo&amp;rsquo;s Pagination Documentation.</description>
+    </item>
+    
+    <item>
+      <title>Typography</title>
+      <link>/blog/typography/</link>
+      <pubDate>Fri, 19 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/typography/</guid>
+      <description>Heading 1 Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 3 Yet another, but centered! Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Example config.toml</title>
+      <link>/blog/example-config-toml/</link>
+      <pubDate>Thu, 18 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/example-config-toml/</guid>
+      <description>Here&amp;rsquo;s an example for config.toml file.
+baseURL = &amp;quot;http://www.example.com&amp;quot; title = &amp;quot;Minimo&amp;quot; theme = &amp;quot;minimo&amp;quot; googleAnalytics = &amp;quot;UA-XXXX-X&amp;quot; Paginate = 5 [params] description = &amp;quot;Minimalist theme for Hugo&amp;quot; dateFormat = &amp;quot;2006, Jan 2&amp;quot; copyrightOwner = &amp;quot;MunifTanjim&amp;quot; copyrightStartYear = &amp;quot;2017&amp;quot; [params.opengraph] [params.opengraph.facebook] admins = &amp;quot;&amp;quot; appid = &amp;quot;&amp;quot; [taxonomies] category = &amp;quot;categories&amp;quot; tag = &amp;quot;tags&amp;quot; [social] facebook = &amp;quot;&amp;quot; [author] name = &amp;quot;Minimo&amp;quot; [author.social] github = &amp;quot;Minimo&amp;quot; facebook = &amp;quot;Minimo&amp;quot; twitter = &amp;quot;Minimo&amp;quot; [permalinks] page = &amp;quot;/:slug/&amp;quot; # Language Configuration defaultContentLanguage = &amp;quot;en&amp;quot; [languages] # edit this block for your own language [languages.</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>/blog/installation/</link>
+      <pubDate>Wed, 17 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/installation/</guid>
+      <description>Create a Hugo site If you haven&amp;rsquo;t created a Hugo site yet, use the following command:
+hugo new site &amp;lt;name&amp;gt;  Replace the &amp;lt;name&amp;gt; with whatever you want to name your site&amp;rsquo;s repository. Alright, now enter the site&amp;rsquo;s root folder:
+cd &amp;lt;name&amp;gt;  Okay, now it&amp;rsquo;s time for installing Minimo!
+Installing Minimo There are two different ways you can install Minimo:
+ As clone As submodule  The second method is suggested.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+  </channel>
+</rss>

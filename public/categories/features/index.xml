@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Minimo</title>
+    <link>/categories/features/</link>
+    <description>Recent content in Features on Minimo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 30 May 2017 22:00:00 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Graph Support</title>
+      <link>/blog/open-graph-support/</link>
+      <pubDate>Tue, 30 May 2017 22:00:00 +0600</pubDate>
+      
+      <guid>/blog/open-graph-support/</guid>
+      <description>Minimo has built-in support for Open Graph tags.
+The extra configuration options used by Open Graph tags are noted below.
+You can set Facebook&amp;rsquo;s App ID and Admins tags by the following config options:
+[params.opengraph] [params.opengraph.facebook] admins = &amp;quot;&amp;quot; appid = &amp;quot;&amp;quot;   admins field accepts a single Facebook Profile ID number. appid field accepts a single Facebook Application ID number.  You can also add you Facebook Page&amp;rsquo;s ID with the following config option:</description>
+    </item>
+    
+    <item>
+      <title>Translation Support</title>
+      <link>/blog/translation-support/</link>
+      <pubDate>Tue, 30 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/translation-support/</guid>
+      <description>You can translate Minimo in your own language!
+For example, if you want to translate Minimo in Spanish, you will have to add this to your site&amp;rsquo;s config file:
+defaultContentLanguage = &amp;quot;en&amp;quot; [languages] [languages.es] lang = &amp;quot;es&amp;quot; languageName = &amp;quot;Spanish&amp;quot; weight = 1  Then create a folder named /i18n/ in your site&amp;rsquo;s root. And create a file /i18n/es.toml with the translated strings.
+For reference format you can see the en.</description>
+    </item>
+    
+    <item>
+      <title>Menus</title>
+      <link>/blog/menus/</link>
+      <pubDate>Sat, 20 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/menus/</guid>
+      <description>Minimo has two menus.
+ Main Menu Social Menu  Main Menu Main menu is located at the top of the site.
+For adding content entries to the Main menu simply add the menu variable in it&amp;rsquo;s Front Matter.
+For TOML format:
++++ menu = &amp;quot;main&amp;quot; +++  For YAML format:
+--- menu: main ---  For JSON format:
+{ &amp;quot;menu&amp;quot;: &amp;quot;main&amp;quot; }  For adding non-content entries, you will have to specify it in the site&amp;rsquo;s config file.</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>/blog/pagination/</link>
+      <pubDate>Sat, 20 May 2017 12:00:00 +0600</pubDate>
+      
+      <guid>/blog/pagination/</guid>
+      <description>Minimo supports pagination on List pages.
+For configuring it, there are two options:
+ Paginate PaginatePath  Details can be found at Hugo&amp;rsquo;s Pagination Documentation.</description>
+    </item>
+    
+  </channel>
+</rss>
