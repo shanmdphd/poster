@@ -1,5 +1,5 @@
-baseURL = "http://www.example.com"
-title = "Minimo"
+baseURL = "http://shanposter.example.com/"
+title = "Posters by Sungpil Han"
 copyright = ""
 
 theme = "minimo"
